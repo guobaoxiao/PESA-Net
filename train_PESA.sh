@@ -1,0 +1,1 @@
+python main_all.py --val_intv=5000 --save_intv=5000 --train_iter=500000 --log_base="./log_PESA/" --train_batch_size=32 --gpu_id='0' --model='PESA_Net' --split=1 --group=4 --data_tr='./dataset/yfcc-superpoint-2000-train.hdf5' --data_va='./dataset/yfcc-superpoint-2000-val.hdf5'
